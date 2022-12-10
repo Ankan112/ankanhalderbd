@@ -1,33 +1,40 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <div className="navbar bg-base-100">
-            <div className="navbar-start">
-                <div className="dropdown">
-                    <label tabIndex={0} className="btn btn-ghost btn-circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                    </label>
-                    {/* <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Homepage</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>About</a></li>
-                    </ul> */}
-                </div>
-            </div>
-            <div className="navbar-center">
-                <h1 className="normal-case font-bold text-3xl">Ankan Halder</h1>
-            </div>
-            <div className="navbar-end">
-                <button className="btn btn-ghost btn-circle">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                </button>
-                <button className="btn btn-ghost btn-circle">
-                    <div className="indicator">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-                        <span className="badge badge-xs badge-primary indicator-item"></span>
+        <div className=' bg-zinc-700 text-white'>
+            <div className="navbar  w-11/12 mx-auto">
+                <div className="navbar-start">
+                    <div className="dropdown">
+                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabIndex={0} className="menu menu-compact font-semibold dropdown-content mt-3 p-2 shadow bg-base-100 text-black rounded-box w-52">
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
+                        </ul>
                     </div>
-                </button>
+                    <h1 className="normal-case font-bold text-xl">Ankan Halder</h1>
+                </div>
+                {/* <div className="navbar-end hidden lg:flex">
+                <ul className="menu menu-horizontal px-1">
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/blog">Blog</Link></li>
+                </ul>
+            </div> */}
+                <div className="navbar-end">
+                    <div className="navbar-end hidden lg:flex">
+                        <ul className="menu menu-horizontal px-1">
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
+                        </ul>
+                    </div>
+                    <a href='https://drive.google.com/file/d/1Y65kdb4ylPH_mHlajXTGUTlzkWX9q17D/view' target='_blank' className="btn bg-slate-300 text-black hover:bg-slate-200">Resume</a>
+                </div>
             </div>
         </div>
     );
