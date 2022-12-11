@@ -13,6 +13,7 @@ const Navigation = () => {
                         <ul tabIndex={0} className="menu menu-compact font-semibold dropdown-content mt-3 p-2 shadow bg-base-100 text-black rounded-box w-52">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/about">About</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
                         </ul>
                     </div>
@@ -26,14 +27,15 @@ const Navigation = () => {
                 </ul>
             </div> */}
                 <div className="navbar-end">
-                    <div className="navbar-end hidden lg:flex">
+                    <div className="hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/about">About</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
                         </ul>
                     </div>
-                    <a href='https://drive.google.com/file/d/1Y65kdb4ylPH_mHlajXTGUTlzkWX9q17D/view' target='_blank' className="btn bg-slate-300 text-black hover:bg-slate-200">Resume</a>
+                    <a href='https://drive.google.com/file/d/1Y65kdb4ylPH_mHlajXTGUTlzkWX9q17D/view' target='_blank' className="btn bg-slate-300 text-black hover:bg-slate-200">My Resume</a>
                 </div>
             </div>
         </div>
