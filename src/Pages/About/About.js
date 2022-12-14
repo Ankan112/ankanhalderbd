@@ -12,18 +12,10 @@ const About = () => {
                         </h1>
 
                         <div class="mt-8 space-y-5">
-                            {/* <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
 
-                                <span class="mx-2">Clean and Simple Layout</span>
-                            </p> */}
 
                             <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                                {/* <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg> */}
+
 
                                 <span class="mx-2">Hi, I'm a web developer with good knowledge of different technologies & enough experience in creating & designing super responsive websites. <br /> <br /> I am always trying to disclosure something new every single day to become a High-Level programmer.</span>
                             </p>
