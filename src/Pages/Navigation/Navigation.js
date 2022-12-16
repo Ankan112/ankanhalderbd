@@ -19,13 +19,6 @@ const Navigation = () => {
                     </div>
                     <h1 className="normal-case font-bold text-xl">Ankan Halder</h1>
                 </div>
-                {/* <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
-                </ul>
-            </div> */}
                 <div className="navbar-end">
                     <div className="hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
