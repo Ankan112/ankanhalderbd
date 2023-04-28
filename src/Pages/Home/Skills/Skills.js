@@ -11,19 +11,19 @@ const Skills = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
                 <div className='p-10 ah-bg-secondary text-center border border-gray-700 rounded-lg'>
                     <div className='flex justify-center items-center'>
-                        <div className="radial-progress text-center text-3xl ah-bg-third-transparent ah-color-third" style={{ "--value": "85", "--size": "12rem", "--thickness": "1rem" }}><span className='ah-color-primary'>85%</span> </div>
+                        <div className="radial-progress text-center text-3xl ah-bg-third-transparent ah-color-third" style={{ "--value": "85", "--size": "11rem", "--thickness": "1rem" }}><span className='ah-color-primary'>85%</span> </div>
                     </div>
                     <p className='text-3xl text-center font-medium mt-6 ah-color-primary'>Front-End Development</p>
                 </div>
                 <div className='p-10 ah-bg-secondary text-center border border-gray-700 rounded-lg'>
                     <div className='flex justify-center items-center'>
-                        <div className="radial-progress text-center text-3xl ah-bg-third-transparent ah-color-third" style={{ "--value": "75", "--size": "12rem", "--thickness": "1rem" }}><span className='ah-color-primary'>75%</span> </div>
+                        <div className="radial-progress text-center text-3xl ah-bg-third-transparent ah-color-third" style={{ "--value": "75", "--size": "11rem", "--thickness": "1rem" }}><span className='ah-color-primary'>75%</span> </div>
                     </div>
                     <p className='text-3xl text-center font-medium mt-6 ah-color-primary'>Back-End Development</p>
                 </div>
                 <div className='p-10 ah-bg-secondary text-center border border-gray-700 rounded-lg'>
                     <div className='flex justify-center items-center'>
-                        <div className="radial-progress text-center text-3xl ah-bg-third-transparent ah-color-third" style={{ "--value": "80", "--size": "12rem", "--thickness": "1rem" }}><span className='ah-color-primary'>80%</span> </div>
+                        <div className="radial-progress text-center text-3xl ah-bg-third-transparent ah-color-third" style={{ "--value": "80", "--size": "11rem", "--thickness": "1rem" }}><span className='ah-color-primary'>80%</span> </div>
                     </div>
                     <p className='text-3xl text-center font-medium mt-6 ah-color-primary'>Full-Stack Development</p>
                 </div>

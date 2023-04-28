@@ -1,8 +1,8 @@
 import React from 'react';
-import img1 from '../../../img/service1.png';
-import img2 from '../../../img/service2.png';
-import img3 from '../../../img/service3.png';
 import SectionTitle from '../../../Components/Common/SectionTitle/SectionTitle';
+import { FaReact } from 'react-icons/fa';
+import { BsCodeSlash } from 'react-icons/bs';
+import { FaNodeJs } from 'react-icons/fa';
 
 const Service = () => {
     return (
@@ -14,9 +14,9 @@ const Service = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center  mt-10'>
 
                 <div class=" p-6 ah-bg-secondary ah-color-primary border border-gray-700 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <div>
-                        <div>
-                            {/* <img className='mx-auto' src={img1} alt="" /> */}
+                    <div className='flex justify-between'>
+                        <div className='h-24 w-24 ah-bg-third-transparent ah-color-third rounded-full flex justify-center items-center'>
+                            <FaReact size={50}></FaReact>
                         </div>
                         <span className='text-6xl text-[#273042]'>
                             01
@@ -29,9 +29,9 @@ const Service = () => {
 
                 </div>
                 <div class=" p-6 ah-bg-secondary ah-color-primary border border-gray-700 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <div>
-                        <div>
-                            {/* <img className='mx-auto' src={img1} alt="" /> */}
+                    <div className='flex justify-between'>
+                        <div className='h-24 w-24 ah-bg-third-transparent ah-color-third rounded-full flex justify-center items-center'>
+                            <BsCodeSlash size={50}></BsCodeSlash>
                         </div>
                         <span className='text-6xl text-[#273042]'>
                             02
@@ -44,9 +44,9 @@ const Service = () => {
 
                 </div>
                 <div class=" p-6 ah-bg-secondary ah-color-primary border border-gray-700 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <div>
-                        <div>
-                            {/* <img className='mx-auto' src={img1} alt="" /> */}
+                    <div className='flex justify-between'>
+                        <div className='h-24 w-24 ah-bg-third-transparent ah-color-third rounded-full flex justify-center items-center'>
+                            <FaNodeJs size={50}></FaNodeJs>
                         </div>
                         <span className='text-6xl text-[#273042]'>
                             03

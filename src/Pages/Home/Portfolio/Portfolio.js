@@ -1,10 +1,12 @@
 import React from 'react';
+import SectionTitle from '../../../Components/Common/SectionTitle/SectionTitle';
 
 const Portfolio = () => {
     return (
-        <div className='my-10 w-11/12 m-auto'>
-            <h1 className="text-3xl font-bold text-center mb-2 mt-8">My Projects</h1>
-            <p class="mb-5 text-center font-normal text-gray-500 dark:text-gray-400">I always provide my best service to clients <br /> so that they can be happy</p>
+        <div className='container-w pt-20 md:pt-32 pb-10'>
+            <div>
+                <SectionTitle title_text={'My Projects'}></SectionTitle>
+            </div>
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
                 <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
                     style={{ backgroundImage: `url(https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80)` }}
