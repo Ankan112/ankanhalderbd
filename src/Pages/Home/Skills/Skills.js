@@ -43,11 +43,11 @@ const Skills = () => {
                         <progress className="progress h-3 progress-success ah-bg-third-transparent" value="80" max="100"></progress>
                     </div>
                     <div className='mb-8'>
-                        <h2 className='my-2 text-xl ah-color-primary font-medium'>HTML5 - 95%</h2>
+                        <h2 className='my-2 text-xl ah-color-primary font-medium'>HTML - 95%</h2>
                         <progress className="progress h-3 progress-success ah-bg-third-transparent" value="95" max="100"></progress>
                     </div>
                     <div className='mb-8'>
-                        <h2 className='my-2 text-xl ah-color-primary font-medium'>CSS3 - 90%</h2>
+                        <h2 className='my-2 text-xl ah-color-primary font-medium'>CSS - 90%</h2>
                         <progress className="progress h-3 progress-success ah-bg-third-transparent" value="90" max="100"></progress>
                     </div>
                 </div>

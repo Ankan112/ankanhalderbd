@@ -20,12 +20,22 @@ body {
   margin: 0 auto;
 }
 
+.ah-bg-banner {
+  background-color: #0B1223;
+  opacity: 0.95;
+  /* background-color: rgba(15, 22, 39, 0.6); */
+}
+
 .ah-bg-primary {
   background-color: #0F172A;
 }
 
 .ah-bg-secondary {
   background-color: #162033;
+}
+
+.ah-bg-third {
+  background-color: #72E2AE;
 }
 
 .ah-bg-third-transparent {
