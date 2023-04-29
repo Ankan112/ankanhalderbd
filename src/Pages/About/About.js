@@ -18,7 +18,7 @@ const About = () => {
                     </div>
                 </div>
                 <div class="flex items-center justify-center w-full h-96 lg:w-1/2">
-                    <img class="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src={img} alt="ankan's image" />
+                    <img class="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src={img} alt="ankan_image" />
                 </div>
             </div>
         </div>
