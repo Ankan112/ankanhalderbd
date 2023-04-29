@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <p className="mt-4 md:mt-0 text-lg ah-color-secondary text-center">{currentYear} &copy; All Rights Reserved <span className='ah-color-primary'>Ankan Halder.</span></p>
+                    <p className="mt-4 md:mt-0 text-base md:text-lg ah-color-secondary text-center">{currentYear} &copy; All Rights Reserved <span className='ah-color-primary'>Ankan Halder.</span></p>
                 </div>
             </div>
         </footer>
