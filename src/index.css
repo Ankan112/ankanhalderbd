@@ -20,8 +20,50 @@ body {
   margin: 0 auto;
 }
 
-.bg-primary {
+.ah-bg-banner {
+  background-color: #0B1223;
+  opacity: 0.95;
+  /* background-color: rgba(15, 22, 39, 0.6); */
+}
+
+.ah-bg-primary {
   background-color: #0F172A;
+}
+
+.ah-bg-secondary {
+  background-color: #162033;
+}
+
+.ah-bg-third {
+  background-color: #72E2AE;
+}
+
+.ah-bg-third-transparent {
+  background-color: #72e2ae37;
+}
+
+.ah-color-primary {
+  color: #FAFAFA;
+}
+
+.ah-color-secondary {
+  color: #B0B0BD;
+}
+
+.ah-color-third {
+  color: #72E2AE;
+}
+
+/* .bg-section-text {
+  will-change: transform;
+  transform: translateX(-51.2027%);
+} */
+
+.horizontal-line {
+  border-top: 3px solid #72E2AE;
+  width: 15%;
+  margin: 20px auto;
+  /* padding: 5px; */
 }
 
 /* code {
